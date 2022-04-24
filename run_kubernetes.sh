@@ -5,7 +5,7 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
-dockerpath="udacity-devops-project4"
+dockerpath="vtm1983/udacity-devops-project4"
 # Step 2
 # Run the Docker Hub container with kubernetes
 kubectl run $dockerpath --image=$dockerpath --port=80
