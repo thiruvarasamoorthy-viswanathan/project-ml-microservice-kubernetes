@@ -1,0 +1,23 @@
+#pending state:
+pod/udacity-devops-project4 created
+NAME                      READY   STATUS              RESTARTS   AGE
+udacity-devops-project4   0/1     ContainerCreating   0          1s
+error: unable to forward port because pod is not running. Current status=Pending
+
+#running state:
+Error from server (AlreadyExists): pods "udacity-devops-project4" already exists
+NAME                      READY   STATUS    RESTARTS   AGE
+udacity-devops-project4   1/1     Running   0          4m12s
+Forwarding from 172.17.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+#output:
+Handling connection for 8000
+
+#prediction output
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
