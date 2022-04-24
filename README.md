@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/thiruvarasamoorthy-viswanathan/project-ml-microservice-kubernetes/tree/main.svg?style=svg)](https://circleci.com/gh/thiruvarasamoorthy-viswanathan/project-ml-microservice-kubernetes/tree/main)
 
-Docker Link: https://hub.docker.com/r/vtm1983/udacity-devops-project4
+Docker Link: https://hub.docker.com/r/vtm1983/udacity-devops-project4/tags
 
 ## Project Summary
 
@@ -48,11 +48,12 @@ brew install minikube
 * Run `make install` to install the necessary dependencies
 
 ### Running `app.py`
+```bash
 make lint
 ./run_docker.sh
 docker image ls
 docker run -p 8000:80 udacity-devops-project4
-
+ ```
 ### File Structure
 
 1. sh files - run_docker, run_kubernetes, upload_docker updated with required scripts
