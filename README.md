@@ -54,6 +54,20 @@ make lint
 docker image ls
 docker run -p 8000:80 udacity-devops-project4
  ```
+
+Run in Docker:
+run_docker.sh contains the script to run the app in the docker.
+
+./run_docker.sh
+
+Run in Kubernetes:
+run_kubernetes.sh contains the script to run app in the Kubernetes.
+./make_prediction.sh
+
+Upload to Docker Hub upload_docker.sh contains the script to upload the docker image to the Docker Hub.
+
+./upload_docker.sh
+
 ### File Structure
 
 1. sh files - run_docker, run_kubernetes, upload_docker updated with required scripts
